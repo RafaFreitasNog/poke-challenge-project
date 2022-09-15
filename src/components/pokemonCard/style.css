@@ -1,0 +1,11 @@
+#pokemon-card-div {
+    background-color: var(--gray3);
+    width: 90%;
+    height: 80px;
+    margin-bottom: 16px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
