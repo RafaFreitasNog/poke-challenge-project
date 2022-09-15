@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import CardsSection from '../cardsSection'
+import CardsSection from '../components/cardsSection'
 
 function MainPage(props) {
     return ( 
