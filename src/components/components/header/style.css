@@ -1,0 +1,11 @@
+#header-conteiner {
+    height: 80px;
+    background-color: var(--gray2);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--yellow);
+}

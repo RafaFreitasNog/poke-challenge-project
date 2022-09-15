@@ -37,14 +37,16 @@ function CardsSection(props) {
 
     return (
         <Fragment>
-            <div id="card-section-conteiner" className="rounded">
-                {pokeArray.map((element) => 
-                    <PokemonCard
-                    key = {element.name}
-                    name = {element.name}
-                    />)}
-                    <p>{nextUrl}</p>
-                    <p>{prevUrl}</p>
+            <div id="card-button-section" className="rounded">
+                <div id="cards-conteiner">
+                    {pokeArray.map((element) => 
+                        <PokemonCard
+                        key = {element.name}
+                        name = {element.name}
+                        />)}
+                        <p>{nextUrl}</p>
+                        <p>{prevUrl}</p>
+                </div>
                 <div id="buttons-conteiner">
                     <button
                     className="pagination-button rounded title"
